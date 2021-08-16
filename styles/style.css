@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fondo {
+  background: rgb(28, 83, 128);
+  background: linear-gradient(
+    180deg,
+    rgba(28, 83, 128, 1) 49%,
+    rgba(255, 255, 255, 1) 49%
+  );
+  height: 800px;
+}
+
+.centralBlock {
+  padding: 100px 200px;
+  display: flex;
+  min-width: 1000px;
+}
+
+.content {
+  margin: 50px;
+}
+
+.textItemTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  border: 2px #06365f solid;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #1c5380;
+}
+
+.button h5 {
+  color: white;´
+ 
+
+}
+
+.textItemBottom {
+  background-color: white;
+  padding: 75px;
+  border-radius: 10px;
+
+}
+
+.textItemBottom h1 {
+  color: #06365f;
+  font-size: 16px;
+}
+
+.appLogos {
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+
+.menuContainer {
+  display: flex;
+  align-content: center;
+  padding: 0 350px;
+}
+
+.menu h1 {
+  font-size: 14px;
+  color: #06365f;
+}
+
+.span {
+  color: rgba(94, 108, 116, 0.986);
+}
